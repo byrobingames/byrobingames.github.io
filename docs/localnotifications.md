@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Local Notifications
-nav_order: 1
+nav_order: 2
 ---
 
 <div style='width: 105%; height: 3000px; overflow: hidden;'>
