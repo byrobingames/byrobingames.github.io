@@ -1,5 +1,3 @@
 title: byRobinGames
 description: Stencyl Extensions
-remote_theme: pmarsceill/just-the-docs
-nav_order: 2
-permalink: /localnotifications
+remote_theme: daattali/beautiful-jekyll
