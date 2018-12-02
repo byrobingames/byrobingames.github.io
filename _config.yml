@@ -4,7 +4,7 @@ show_downloads: true
 google_analytics:
 remote_theme: pmarsceill/just-the-docs
 
-toc:
+docs:
   - title: Group 1
     subfolderitems:
       - page: Thing 1
