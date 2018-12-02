@@ -4,8 +4,7 @@ show_downloads: true
 google_analytics:
 remote_theme: pmarsceill/just-the-docs
 
-docs_list_title: ACME Documentation
-docs:
+html_pages:
 
 - title: Introduction
   url: introduction.html
