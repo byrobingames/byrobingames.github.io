@@ -1,5 +1,4 @@
 title: byRobinGames
 description: Stencyl Extensions
-show_downloads: true
-google_analytics:
+search_enabled: true
 remote_theme: pmarsceill/just-the-docs
