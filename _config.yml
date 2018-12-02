@@ -3,7 +3,3 @@ description: Stencyl Extensions
 show_downloads: true
 google_analytics:
 remote_theme: pmarsceill/just-the-docs
-html_pages:
-      - parent:
-            - title: Introduction
-              url: introduction.html
