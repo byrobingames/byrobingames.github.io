@@ -5,12 +5,11 @@ google_analytics:
 remote_theme: pmarsceill/just-the-docs
 
 html_pages:
+      title: Introduction
+      url: introduction.html
+    
+      title: Configuration
+      url: configuration.html
 
-- title: Introduction
-  url: introduction.html
-
-- title: Configuration
-  url: configuration.html
-
-- title: Deployment
-  url: deployment.html
+      title: Deployment
+      url: deployment.html
