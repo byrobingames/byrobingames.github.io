@@ -96,7 +96,7 @@
                                         <a href="#">Batch Push Notif</a>
                                     </li>
                                     <li>
-                                        <a href="/#localnotifications">Local Nofitications</a>
+                                        <a href="localnotifications">Local Nofitications</a>
                                     </li>
                                     <li>
                                         <a href="#">Replay kit</a>
@@ -145,12 +145,12 @@
     <script src="js/main.js"></script>
     
     <script>
-       var pathname = window.location.pathname;
-       var res = pathname.replace("#", "");
-       //$(function(){
-       //$("#DivContent").load(res); 
-       //});
-       document.getElementById("debug").innerHTML = pathname;
+        $(document).ready(function(){
+        $('a').click(function(e){
+        e.preventDefault();
+        $("#DivContent").load($(this).attr('href'));
+        });
+        });
      </script>
 </body>
 
