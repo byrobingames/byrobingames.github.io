@@ -128,8 +128,9 @@
 
             <script>
             var pathname = window.location.pathname;
+            var res = pathname.replace("#", "");
             $(function(){
-            $("#DivContent").load("pathname"); 
+            $("#DivContent").load("res"); 
             }); 
             </script>
             
