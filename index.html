@@ -20,6 +20,15 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/sidebar-themes.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    
+    <script>
+       var pathname = window.location.pathname;
+       var res = pathname.replace("#", "");
+       //$(function(){
+       //$("#DivContent").load(res); 
+       //});
+       document.getElementById("debug").innerHTML = pathname;
+     </script>
 </head>
 
 <body>
@@ -128,15 +137,6 @@
             <!-- content pages here -->
             <div id="DivContent"></div>
             <p id="debug"></p>
-
-            <script>
-            var pathname = window.location.pathname;
-            var res = pathname.replace("#", "");
-            //$(function(){
-            //$("#DivContent").load(res); 
-            //});
-            document.getElementById("debug").innerHTML = res;
-            </script>
             
         </main>
         <!-- page-content" -->
